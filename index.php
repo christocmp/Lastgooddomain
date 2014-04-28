@@ -95,7 +95,7 @@
 
 <?php elseif ($str_language == 'en'): ?>
 
-    <p class="text"><strong>The virtual host was set up successfully.</strong></p>
+    <p class="text"><strong>The virtual host was set up successfully gratz.</strong></p>
     <p class="text">If you can see this page, your new virtual host was set up successfully. Now, web content can be added and this placeholder page<sup><a href="#footnote_1">1</a></sup> should be replaced or deleted.</p>
     <p class="text">
         Server name: <samp><?php echo $_SERVER['SERVER_NAME']; ?></samp><br />

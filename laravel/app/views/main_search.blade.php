@@ -1,23 +1,17 @@
 @extends('layout.default')
 
 @section('header')
-<title>Welcome to Stopwatch</title>
+<title>Lastgooddomain</title>
 @stop
 
 @section('content')
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"></a>
+            <a class="navbar-brand" href="#">section1</a>
+            <a class="navbar-brand" href="#">section2</a>
         </div>
         <div class="navbar-collapse collapse">
-            {{ Form::open(['route' => 'sessions.store', 'class' => 'navbar-form navbar-right']) }}
+            {{ Form::open(['url' => '/', 'class' => 'navbar-form navbar-right']) }}
             <div class="form-group">
                 {{ Form::label('email', 'Username / Email: ', ['name' => 'email', 'class' => '', 'placeholder' => 'Email']) }}
                 {{ Form::email('email', 'Email', ['name' => 'email', 'class' => 'form-control', 'placeholder' => 'Email']) }}
@@ -35,22 +29,32 @@
     </div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div id="center-search">
         <div class="container">
-            <h1>Test Analytics</h1>
+            {{ Form::open(['url' => '/', 'class' => 'navbar-form navbar-right']) }}
+            <div class="form-group">
+                {{ Form::label('search-term', '', ['name' => 'email', 'class' => '', 'placeholder' => 'Email']) }}
+                {{ Form::text('email', 'Email', ['name' => 'email', 'class' => 'form-control', 'placeholder' => 'Email']) }}
+            </div>
+
+            <div class="form-group">
+                {{ Form::submit('Go',['class' => 'btn btn-success']) }}
+                {{ Form::close() }}
+            </div>
             <!-- <p>Simple straight forward price alerts on all your equities.</p> -->
+
             <!-- <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p> -->
         </div>
     </div>
 
-    <footer>
-        <p>&copy; StockWatch {{ date('Y') }}</p>
-    </footer>
+    <div id="footer-container">
+
+&copy; LastGoodDomain {{ date('Y') }}
+    </div>
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
     @stop

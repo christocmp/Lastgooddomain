@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07977f61-6a92-4d84-96da-ef901f66035c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/layout/default.blade.php" afterPath="$PROJECT_DIR$/laravel/app/views/layout/default.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/main_search.blade.php" afterPath="$PROJECT_DIR$/laravel/app/views/main_search.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/routes.php" afterPath="$PROJECT_DIR$/laravel/app/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Lastgooddomain.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="07977f61-6a92-4d84-96da-ef901f66035c" time="1398775778092" ignored="false" />
+    <file path="/Dummy.txt" changelist="07977f61-6a92-4d84-96da-ef901f66035c" time="1399386031796" ignored="false" />
     <file path="/index.php" changelist="07977f61-6a92-4d84-96da-ef901f66035c" time="1398700021236" ignored="false" />
-    <file path="/routes.php" changelist="07977f61-6a92-4d84-96da-ef901f66035c" time="1398767144340" ignored="false" />
+    <file path="/routes.php" changelist="07977f61-6a92-4d84-96da-ef901f66035c" time="1399111829167" ignored="false" />
     <file path="/app.php" changelist="07977f61-6a92-4d84-96da-ef901f66035c" time="1398769558413" ignored="false" />
-    <file path="/main_search.blade.php" changelist="07977f61-6a92-4d84-96da-ef901f66035c" time="1398781627050" ignored="false" />
+    <file path="/main_search.blade.php" changelist="07977f61-6a92-4d84-96da-ef901f66035c" time="1399111776580" ignored="false" />
     <file path="/main.css" changelist="07977f61-6a92-4d84-96da-ef901f66035c" time="1398779839859" ignored="false" />
     <file path="/default.blade.php" changelist="07977f61-6a92-4d84-96da-ef901f66035c" time="1398778050235" ignored="false" />
     <file path="/a.dummy" changelist="07977f61-6a92-4d84-96da-ef901f66035c" time="1398779453589" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../animed_public_live/application/models/offermodel.php" changelist="07977f61-6a92-4d84-96da-ef901f66035c" time="1398785005805" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,10 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="465" selection-end="465" vertical-scroll-proportion="-5.0">
+            <state line="22" column="6" selection-start="509" selection-end="509" vertical-scroll-proportion="0.24283935">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/bootstrap/autoload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="62" selection-start="1045" selection-end="1045" vertical-scroll-proportion="-20.0">
+            <state line="32" column="62" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,7 +107,7 @@
       <file leaf-file-name="app.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="56" selection-start="2146" selection-end="2146" vertical-scroll-proportion="-10.041667">
+            <state line="65" column="56" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,16 +116,16 @@
       <file leaf-file-name="hello.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/views/hello.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="30" selection-start="0" selection-end="7679" vertical-scroll-proportion="-6.875">
+            <state line="26" column="91" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_search.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main_search.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/views/main_search.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="29" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.6858407">
+            <state line="33" column="31" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,7 +134,7 @@
       <file leaf-file-name="default.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/views/layout/default.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="-7.5">
+            <state line="12" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,7 +152,7 @@
       <file leaf-file-name="BaseController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/controllers/BaseController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,7 +161,7 @@
       <file leaf-file-name="HomeController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="61" selection-start="587" selection-end="587" vertical-scroll-proportion="-14.375">
+            <state line="23" column="61" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,21 +188,21 @@
       <list>
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/main_search.php" />
-        <option value="$PROJECT_DIR$/laravel/app/routes.php" />
         <option value="$PROJECT_DIR$/laravel/.gitignore" />
         <option value="$PROJECT_DIR$/laravel/app/config/app.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/templates/main.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/layout/default.blade.php" />
         <option value="$PROJECT_DIR$/laravel/public/css/main.css" />
         <option value="$PROJECT_DIR$/laravel/app/views/main_search.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/app/routes.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
+    <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="height" value="973" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -300,7 +300,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -322,11 +322,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -348,6 +348,19 @@
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -376,19 +389,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -464,17 +464,20 @@
       <created>1398775782454</created>
       <updated>1398775782454</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Working design">
+      <created>1398781723528</created>
+      <updated>1398781723528</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="973" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26680243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25661916" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -483,18 +486,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26360726" sideWeight="0.74338084" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24226254" sideWeight="0.68301886" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31698114" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -540,7 +544,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added base template from stockwasp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working design" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -557,6 +561,7 @@
     <MESSAGE value="Creation of jidea project" />
     <MESSAGE value="Laravel" />
     <MESSAGE value="Added base template from stockwasp" />
+    <MESSAGE value="Working design" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -566,58 +571,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/laravel/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="36" selection-start="2347" selection-end="2347" vertical-scroll-proportion="-51.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/bootstrap/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="62" selection-start="1045" selection-end="1045" vertical-scroll-proportion="-20.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="9" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="56" selection-start="2146" selection-end="2146" vertical-scroll-proportion="-10.041667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/hello.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="0" selection-end="7679" vertical-scroll-proportion="-6.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="465" selection-end="465" vertical-scroll-proportion="-5.0">
+        <state line="19" column="12" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -631,14 +587,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="61" selection-start="587" selection-end="587" vertical-scroll-proportion="-14.375">
+        <state line="23" column="61" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="36" selection-start="2347" selection-end="2347" vertical-scroll-proportion="-51.875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="62" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="9" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="56" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="61" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/layout/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="-7.5">
+        <state line="12" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -652,7 +658,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/main_search.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="29" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.6858407">
+        <state line="33" column="31" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/hello.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="91" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="6" selection-start="509" selection-end="509" vertical-scroll-proportion="0.24283935">
           <folding />
         </state>
       </provider>

@@ -11,7 +11,20 @@
 |
 */
 
+
+
 Route::get('/', function()
 {
     return View::make('main_search');
 });
+
+Route::post('search', function()
+{
+    //return 'hello world';
+    print_r($_POST);
+});
+
+
+Route::get('login', 'SessionController@create');
+Route::get('logout', 'SessionController@destroy');
+

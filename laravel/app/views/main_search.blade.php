@@ -11,7 +11,7 @@
             <a class="navbar-brand" href="#">section2</a>
         </div>
         <div class="navbar-collapse collapse">
-            {{ Form::open(['url' => '/', 'class' => 'navbar-form navbar-right']) }}
+            {{ Form::open(['url' => 'search', 'class' => 'navbar-form navbar-right' , 'method' => 'post']) }}
             <div class="form-group">
                 {{ Form::label('email', 'Username / Email: ', ['name' => 'email', 'class' => '', 'placeholder' => 'Email']) }}
                 {{ Form::email('email', 'Email', ['name' => 'email', 'class' => 'form-control', 'placeholder' => 'Email']) }}
@@ -31,7 +31,7 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div id="center-search">
         <div class="container">
-            {{ Form::open(['url' => '/', 'class' => 'navbar-form navbar-right']) }}
+            {{ Form::open(['url' => 'search', 'class' => 'navbar-form navbar-right' , 'method' => 'post']) }}
             <div class="form-group">
                 {{ Form::label('search-term', '', ['name' => 'email', 'class' => '', 'placeholder' => 'Email']) }}
                 {{ Form::text('email', 'Email', ['name' => 'email', 'class' => 'form-control', 'placeholder' => 'Email']) }}

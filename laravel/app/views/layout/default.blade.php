@@ -23,6 +23,10 @@
 
 <body>
 @yield('content')
+<div id="footer-container">
+    &copy; LastGoodDomain {{ date('Y') }}
+</div>
+
 </body>
 
 </html>

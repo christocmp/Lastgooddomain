@@ -24,6 +24,13 @@ Route::post('search', function()
     print_r($_POST);
 });
 
+Route::get('domain', function()
+{
+    $domain = Domain::find(82714930);
+
+    return $domain->domain_name . $domain->auction_type;
+
+});
 
 Route::get('login', 'SessionController@create');
 Route::get('logout', 'SessionController@destroy');

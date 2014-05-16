@@ -24,11 +24,10 @@
 
                 {{ Form::submit('Login',['class' => 'btn btn-success']) }}
                 {{ Form::close() }}
-            </div><!--/.navbar-collapse -->
         </div>
     </div>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
+
     <div id="center-search">
         <div class="container">
             {{ Form::open(['url' => 'search', 'class' => 'navbar-form navbar-right' , 'method' => 'post']) }}
@@ -46,15 +45,4 @@
             <!-- <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p> -->
         </div>
     </div>
-
-    <div id="footer-container">
-
-&copy; LastGoodDomain {{ date('Y') }}
-    </div>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    @stop
+@stop
